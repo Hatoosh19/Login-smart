@@ -1,0 +1,87 @@
+body
+{
+    background-color: #24353f;
+}
+:root
+{
+    --mainColor:#17A2B8;
+}
+h1
+{
+    color: var(--mainColor);
+}
+input
+{
+    background-color: transparent !important;
+}
+.form-control
+{
+    color: white !important;
+}
+.w-90
+{
+    width: 90% !important;
+}
+::placeholder
+{
+    color: #ccc !important;
+}
+input:focus
+{
+    border-color: #80bdff;
+}
+.group,nav {
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1) !important;
+}
+a
+{
+    text-decoration: none;
+}
+li a
+{
+    border:1px solid #FEC104 !important;
+    color: #ccc !important;
+}
+.m-sp
+{
+    margin-top: 4rem !important;
+}
+
+@media (max-width:768px)
+{
+    .group h1
+    {
+        font-size: 22px !important;
+    }
+    .group input
+    {
+        padding: 10px 5px !important;
+        width: 100% !important;
+    }
+}
+@media (max-width:500px) {
+    .group h1
+    {
+        font-size: 17px !important;
+        font-weight: 700;
+    }
+    input::placeholder
+    {
+        font-size: 13px !important;
+    }
+    .container
+    {
+        margin-block:0 !important;
+        margin-top: 50px !important;
+    }
+    
+    .group
+    {
+    width: 100% !important;
+    }
+
+    #username
+    {
+        font-size: 30px !important;
+    }
+}
